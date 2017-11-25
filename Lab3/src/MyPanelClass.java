@@ -17,17 +17,17 @@ public class MyPanelClass extends JPanel {
 		int height = y2 - y1;
 
 		//Paint the background
-		g.setColor(Color.BLACK);
+		g.setColor(Color.ORANGE);
 		g.fillRect(x1, y1, width + 1, height + 1);
 
-		//		//Draw a border
-		//		g.setColor(Color.YELLOW);
-		//		g.drawRect(x1, y1, width, height);
-		//
-		//		//Draw a second smaller border
-		//		g.setColor(Color.red);
-		//		g.drawRect(x1 + 10, y1 + 10, width - 20, height- 20);
-		//
+				//Draw a border
+				g.setColor(Color.CYAN);
+				g.drawRect(x1, y1, width, height);
+		
+				//Draw a second smaller border
+				g.setColor(Color.BLACK);
+				g.drawRect(x1 + 10, y1 + 10, width - 20, height- 20);
+		
 		//		//Draw a line
 		//		g.setColor(Color.WHITE);
 		//		g.drawLine(x1, y1, x2, y2);
